@@ -1,0 +1,24 @@
+.header {
+    background: rgb(235,235,235,0.9);
+    background: linear-gradient(90deg, rgba(235,235,235,0.9) 0%, rgba(133,22,22,0.9) 62%, rgba(133,22,22,0.9) 100%);
+}
+@media only screen and (max-width: 600px) {
+    .header {
+        background: rgb(247,247,247);
+    }
+    .admin {
+        color: rgba(41,43,44,1);
+    }
+}
+.content {
+    margin-top: 75px;
+    margin-bottom: 0px;
+    height: 100%;
+}
+#side {
+    margin-bottom: -99999px;
+    padding-bottom: 99999px;
+}
+.tabla {
+    background-color: #fff;
+}

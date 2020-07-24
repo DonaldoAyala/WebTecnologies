@@ -1,0 +1,11 @@
+--  Importar base de datos --
+
+Método 1:
+- Entrar a la interfaz gráfica de phpMyAdmin
+- Importar el archivo: 'registro_alumnos_2020_2'
+
+Método 2:
+- Abrir la línea de comandos de mysql
+- Ejecutar el siguiente comando, indicando la ruta del archivo
+
+source C:/.../ruta/.../registro_alumnos_2020_2.sql;
